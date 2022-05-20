@@ -43,7 +43,7 @@ export default function SearchPanel({setPosition, setPlaces, setLocation}) {
             onChange={(e) => setValue(e.target.value)}
             disabled={!ready}
             className="combobox-input"
-            placeholder="Search office address"
+            placeholder="Search address"
           />
         </div>
         <ComboboxPopover>
